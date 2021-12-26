@@ -1,0 +1,110 @@
+/*!***********************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./sass/main.scss ***!
+  \***********************************************************************************************************/
+:root {
+  --light-header: #373B53;
+  --dark-header: #1E2139;
+  --light-body: #F8F8F8;
+  --dark-body: #141625;
+  --text-light: #888EB0;
+  --white: #FFF;
+  --black: #0C0E16; }
+
+.light {
+  --bg: var(--light-body);
+  --bg-nav: var(--light-header); }
+  .light h2 {
+    color: var(--black); }
+
+.dark {
+  --bg: var(--dark-body);
+  --bg-nav: var(--dark-header);
+  --color: var(--white); }
+  .dark h2 {
+    color: var(--white); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  background-color: var(--bg); }
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  letter-spacing: -1px; }
+
+h2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: -.8px; }
+
+.container {
+  max-width: 73rem;
+  margin: 0 auto;
+  padding: 0 2.4rem; }
+
+.btn {
+  width: 15rem;
+  background-color: #7C5DFA;
+  border: none;
+  border-radius: 2.4rem; }
+  .btn--md {
+    width: 13rem; }
+  .btn--sm {
+    width: 7.3rem; }
+
+.main .page-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0; }
+  .main .page-options .invoice-info p {
+    color: var(--text-light);
+    font-size: 1.2rem; }
+  .main .page-options .user-options {
+    display: flex; }
+
+header {
+  background-color: var(--bg-nav);
+  height: 7.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .logo {
+    background-color: #9277FF;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0 2rem 2rem 0; }
+  header .mode-user {
+    display: flex;
+    align-items: center;
+    align-self: stretch; }
+    header .mode-user .mode {
+      padding: 0 2.2rem; }
+    header .mode-user .user {
+      padding: 0 2.2rem;
+      border-left: solid 1px #494E6E;
+      align-self: stretch;
+      display: flex;
+      align-items: center; }
+      header .mode-user .user img {
+        border-radius: 50%; }
+
+
+/*# sourceMappingURL=main.css.map*/

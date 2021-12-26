@@ -1,0 +1,38 @@
+header {
+    background-color: var(--bg-nav);
+    height: 7.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        background-color: #9277FF;
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        border-radius: 0 2rem 2rem 0;
+    }
+
+    .mode-user {
+        display: flex;
+        align-items: center;
+        align-self: stretch;
+
+        .mode {
+            padding: 0 2.2rem;
+        }
+
+        .user {
+            padding: 0 2.2rem;
+            border-left: solid 1px #494E6E;
+            align-self: stretch;
+            display: flex;
+            align-items: center;
+            
+            img {
+                border-radius: 50%;
+            }
+        }
+    }
+}

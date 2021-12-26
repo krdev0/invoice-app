@@ -1,0 +1,14 @@
+.btn {
+    width: 15rem;
+    background-color: #7C5DFA;
+    border:none;
+    border-radius: 2.4rem;
+
+    &--md {
+        width: 13rem;
+    }
+
+    &--sm {
+        width: 7.3rem;
+    }   
+}
